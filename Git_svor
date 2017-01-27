@@ -1,0 +1,67 @@
+#Git spurningar og svör
+
+1. Hvað gera eftirfarandi Linux skipanir?
+	cd
+	cd ~
+	ls
+	pwd
+	mkdir
+
+cd = vísar í/færir okkur í aðra möppu
+cd ~ = færir þig á rótina
+ls = sýnir innihald möppunar/rótinar sem þú ert í
+pwd = sýnir hvaða möppur þú ert staddur í
+mkdir = gerir directory/möppu
+
+2. Hvað gera eftirfarandi git skipanir og hvers vegna eru þær gagnlegar?
+	git clone
+	git log
+	git status
+	git diff
+	git checkout
+
+	git clone = gerir copy af git repository sem er til
+	git log = sýnir allt sem hefur verið gert í git fílnum
+	git status = sýnir stöðuna á gitinu
+	git diff = ber saman breytt files í gitinu
+	git checkout = breytir um branch 
+
+
+3. Hver er munurinn á eftirfarandi git skipunum:
+	a) git diff 
+	b) git diff --staged 
+	c) git diff commit1 commit2
+
+	git diff = ber saman breytt files í gitinu
+	git diff --staged = ber saman breytt files á uppsetningarsvæðinu
+	git diff commit1 commit2 = bara saman eitt commit og annað commit og sér breytingu á milli þessara tveggja
+
+4. 	Hvað er útgáfustýring (e.version control)?
+	útgáfustýring er bara stýring af hvaða útgáfum er hægt að sjá og hvaða útgáfu þú vilt fara í.
+
+5.	Hverjir eru helstu kostir við að nota GIT?
+
+	GitHub er fremur einfalt í notkun og notkun á GitHub ætti ekki að vera þáttur í fráhindrun GitHub notanda. Fremstu kostirnir eru örugglega einfalda notkunin á því, rauntímabreytingin sem er gerð og magnið af fólki sem er leyft að vinna í einu. Ef maður er að fara að vinna í rafrænu hópverkefni þar sem notkun og skipting á kóðum þá er GitHub bara standard hluturinn við þannig notkun og ættir ekki að fara annað nema að þú hafir reynslu við noktun á örðu eða þér finnist það þægilegra. Notaðu github, ekki vera fáviti.
+
+
+6.	Hversu oft telur þú að eigi að gera commit í verkefni, rökstuddu?
+
+ 	Þá að commit-a í git í hvert sinn sem stórar eða miðlungs breytingar eru gerðar til að viðhalda góðri uppfærslu og stöðu gitsins.
+
+7.	Hvað er "Working directory"?" "Staging area"?" og "Repository" í GIT?
+	
+	working directory = directory-ið sem þú ert staddur í
+	staging area = eiginlega staðurinn sem þú gerir breytingar áður en þú commitar þær í gitið
+	repository = repository er geymsla fyrir commits, og vísanir í commits að nafni heads.
+
+8.	Hvenær er sniðugt að nota greinar (branches)? 
+
+	Þegar þú vilt skipta í flokka fyrir hlutu sem eru rosalega margir, þá er gott að nota branches
+
+9.	Hver fann upp GIT?
+
+	Linus Torvalds
+
+10.	Hvar er GIT helst notað?
+
+        Til þess að Geyma og vinna verkefni t.d. í hópavinnu í skóla e'a bara líka á vinnustöðum.
